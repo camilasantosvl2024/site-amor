@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+
+/* PAGE 1 */
+.page1  {
+  width: 100%;
+  height: 100vh;
+  background-image: url("imagens/carta.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/*BOTÃO INVISÍVEL */
+.page1 .btn-sim {
+  position: absolute;
+  bottom: 10%;   /* ajusta conforme sua imagem */
+  left: 85%;
+  transform: translateX(-50%);
+  width: 220px;  /* largura da área clicável */
+  height: 300px;  /* altura da área clicável */
+  cursor: pointer;
+  z-index: 999;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+/* PAGE 2 */
+.page2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url("imagens/casal.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
