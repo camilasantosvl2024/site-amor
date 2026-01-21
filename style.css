@@ -43,4 +43,16 @@ html, body {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
+
+}
+
+/* AJUSTES PARA CELULAR */
+@media (max-width: 768px) {
+
+  .page1,
+  .page2 {
+    background-position: center top;
+    background-size: cover;
+  }
+
 }
